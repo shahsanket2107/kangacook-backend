@@ -1,0 +1,4 @@
+recipes/__pycache__/
+recipes/migrations
+kangacook_backend/__pycache__/
+kangacook_backend/migrations/
