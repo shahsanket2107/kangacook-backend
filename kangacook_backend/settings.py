@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-px@pp_i*j=wt4l)!&*%9n4*n(duoclzt#5!%)y2*m8#-5kr$!5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -55,6 +55,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "http://kangacook-frontend.s3-website.us-east-2.amazonaws.com/"
 ]
 
 REST_FRAMEWORK = {
